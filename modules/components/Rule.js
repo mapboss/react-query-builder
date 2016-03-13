@@ -39,7 +39,7 @@ export default class Rule extends Component {
         super(props);
         this.state = {
             isFieldOpen: false,
-            curField: "Field"
+            curField: this.props.selectedField
         };
     }
 

@@ -82,7 +82,7 @@ var Rule = (0, _RuleContainer2.default)(_class = (_temp = _class2 = function (_C
 
     _this.state = {
       isFieldOpen: false,
-      curField: "Field"
+      curField: _this.props.selectedField
     };
     return _this;
   }
