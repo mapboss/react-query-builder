@@ -1,6 +1,6 @@
 {
   "name": "react-query-builder",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main1": "modules",
   "main": "lib",
   "main2": "build/global/ReactQueryBuilder.js",
@@ -28,16 +28,16 @@
     "react-dropdown-button": "^1.0"
   },
   "dependencies": {
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "react-pure-render": "^1.0.2",
-    "react-redux": "^4.0.6",
-    "redux": "^3.0.5",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6",
     "immutable": "^3.7.6",
-    "react-dd-menu": "^1.0",
-    "react-addons-css-transition-group": "^0.14.6",
-    "react-addons-pure-render-mixin": "^0.14.6",
-    "react-bootstrap": "^0.28.1",
+    "react-dd-menu": "^2.0",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
     "less-loader": "^2.2",
     "less": "^2.6"
   }
