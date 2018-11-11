@@ -7,6 +7,8 @@ exports.default = void 0;
 
 var _react = require("react");
 
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
 var _function = _interopRequireDefault(require("react-pure-render/function"));
 
 var _queryString = _interopRequireDefault(require("../utils/queryString"));
@@ -71,5 +73,5 @@ function (_Component) {
 exports.default = Preview;
 
 _defineProperty(Preview, "propTypes", {
-  config: _react.PropTypes.object.isRequired
+  config: _propTypes.default.object.isRequired
 });
