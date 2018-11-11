@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import createTreeStore from '../stores/tree';
 import { createStore } from 'redux';
 import { Provider, Connector, connect } from 'react-redux';
@@ -33,7 +34,7 @@ const QueryContainer = connect(
 )(ConnectedQuery);
 
 export default class Query extends Component {
-  static propTypes: {
+  static propTypes= {
     conjunctions: PropTypes.object.isRequired,
     fields: PropTypes.object.isRequired,
     operators: PropTypes.object.isRequired,
