@@ -8,3 +8,5 @@ export { default as Builder } from './components/Builder';
 export { default as Preview } from './components/Preview';
 
 export { TextWidget, SelectWidget, DateWidget } from './components/widgets';
+export { ComplexQueryOptions } from './components/options';
+export { ProximityOperator } from './components/operators';
