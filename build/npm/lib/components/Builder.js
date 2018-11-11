@@ -7,6 +7,8 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
 var _immutable = _interopRequireDefault(require("immutable"));
 
 var _Item = _interopRequireDefault(require("../components/Item"));
@@ -70,6 +72,6 @@ function (_Component) {
 exports.default = Builder;
 
 _defineProperty(Builder, "propTypes", {
-  tree: _react.PropTypes.instanceOf(_immutable.default.Map).isRequired,
-  config: _react.PropTypes.object.isRequired
+  tree: _propTypes.default.instanceOf(_immutable.default.Map).isRequired,
+  config: _propTypes.default.object.isRequired
 });
