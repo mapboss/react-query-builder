@@ -33,7 +33,7 @@
     "less": "^2.6",
     "less-loader": "^2.2",
     "react": "^16.6.1",
-    "react-bootstrap": "^0.30.8",
+    "react-bootstrap": "^0.32.4",
     "react-dd-menu": "^2.0",
     "react-dom": "^16.6.1",
     "react-pure-render": "^1.0.2",
